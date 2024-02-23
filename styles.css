@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgreen;
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    width:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border:1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+    padding:20px 15px 20px;
+}
+.heading{
+    margin-bottom:30px;
+    text-align: center;
+}
+label{
+    font-weight: bold;
+}
+#value1{
+    height:35px;
+    width:100px;
+    border-radius: 5px;
+    background-color: transparent;
+    border:1px solid black;
+    padding-left:15px;
+    font-size: 19px;
+    font-weight: bold;
+    outline:none;
+}
+#options1{
+    height:35px;
+    width:100px;
+    border-radius: 5px;
+    background-color: transparent;
+    border:1px solid black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 19px;
+    outline:none;
+}
+.from-box{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.input-area{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.details-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.to-box{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+option{
+    background-color: lightgreen;
+}
+#options2{
+    height:35px;
+    width:150px;
+    border-radius: 5px;
+    background-color: transparent;
+    border:1px solid black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 19px;
+    outline:none;
+}
+.button-box{
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#convert{
+    width:200px;
+    border-radius: 10px;
+    background-color: transparent;
+    border:1px solid black;
+    font-weight: bold;
+    font-size: 1rem;
+    height:40px;
+    margin-bottom: 30px;
+}
+#result{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#resultcontainer{
+    border:1px solid black;
+    height:50px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-bottom:20px;
+}
+.watermark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

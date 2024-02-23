@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">WEIGHT CONVERTER</h1>
+        <div class="details-box">
+        <div class="from-box">
+        <label for="value1">From:-</label>
+        <div class="input-area">
+        <input type="number" name="value" id="value1">
+        <select name="options" id="options1">
+            <option value="kilogram">Kilogram</option>
+            <option value="tonne">Tonne</option>
+            <option value="gram">Gram</option>
+            <option value="milligram">Milligram</option>
+            <option value="microgram">Microgram</option>
+            <option value="uston">Tonne (US Ton)</option>
+            <option value="imperialton">Tonne (Imperial Ton)</option>
+            <option value="pound">Pound</option>
+            <option value="stone">Stone</option>
+            <option value="ounce">Ounce</option>
+        </select>
+    </div>
+    </div>
+    <div class="to-box">
+        <label for="options2">To:-</label>
+        <select name="options" id="options2">
+            <option value="kilogram">Kilogram</option>
+            <option value="tonne">Tonne</option>
+            <option value="gram">Gram</option>
+            <option value="milligram">Milligram</option>
+            <option value="microgram">Microgram</option>
+            <option value="uston">Tonne (US Ton)</option>
+            <option value="imperialton">Tonne (Imperial Ton)</option>
+            <option value="pound">Pound</option>
+            <option value="stone">Stone</option>
+            <option value="ounce">Ounce</option>
+        </select>
+    </div>
+</div>
+<div class="button-box">
+    <button type="submit" id="convert" onclick="calcweight();">CONVERT</button>
+</div>
+<label for="resultcontainer" id="result">Result</label>
+<span id="resultcontainer"></span>
+<h5 class="watermark">MADE BY HEMANT ISSAR</h5>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
