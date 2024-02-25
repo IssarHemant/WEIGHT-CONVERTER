@@ -727,4 +727,8 @@ const calcweight = () => {
       document.getElementById("resultcontainer").innerHTML =
         `= ${result} Microgram</S><br>Formula:- 1 Microgram = Ounce * 2.835e+7`;
     }
+    else{
+      document.getElementById("resultcontainer").innerHTML =
+        `<span>&#128540;</span>Oops! Same value can't be calculated.`;
+    }
   };
