@@ -729,6 +729,6 @@ const calcweight = () => {
     }
     else{
       document.getElementById("resultcontainer").innerHTML =
-        `<span>&#128540;</span>Oops! Same value can't be calculated.`;
+        `<span>&#128540;</span>Oops! Same units can't be calculated.`;
     }
   };
